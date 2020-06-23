@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="Contact.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <title>Document</title>
 </head>
@@ -47,26 +44,42 @@
             </form>
         </div>
     </nav>
-    <div class="form-style-3">
-        <form>
-            <fieldset>
-                <legend>Personal</legend>
-                <label for="field1 "><span>Name <span class="required "></span></span><input type="text " class="input-field " name="field1 " value=" " /></label>
-                <label for="field2 "><span>Email <span class="required "></span></span><input type="email " class="input-field " name="field2 " value=" " /></label>
-                <label for="field3 "><span>Phone <span class="required "></span></span><input type="number " class="input-field " name="field3 " value=" " /></label>
-                </select>
-                </label>
-                <label for="field6 "><span>Message<span class="required "></span></span><textarea name="field6 " class="textarea-field "></textarea></label>
-                <label><span> </span><button class="btn">Submit</button></label>
-            </fieldset>
-        </form>
-    </div>
     <div>
-        <p>
-            Email: info@vegasrestaurant.com
-            <br/> Mobile: 0733337777 <br/>Address: Klarabergsviadukten 70, Box 863, 101 37 STOCKHOLM <br/>Opening Hours: 10:00 am - 12:00 am All days </p>
+        <div class="form-style-3">
+            <form>
+                <fieldset>
+                    <legend>Personal</legend>
+                    <label for="field1 "><span>Name <span class="required "></span></span><input type="text " class="input-field " name="field1 " value=" " /></label>
+                    <label for="field2 "><span>Email <span class="required "></span></span><input type="email " class="input-field " name="field2 " value=" " /></label>
+                    <label for="field3 "><span>Phone <span class="required "></span></span><input type="number " class="input-field " name="field3 " value=" " /></label>
+                    </select>
+                    </label>
+                    <label for="field6 "><span>Message<span class="required "></span></span><textarea name="field6 " class="textarea-field "></textarea></label>
+                    <label for="field7"><span> </span><button class="btn">Submit</button></label>
+                </fieldset>
+            </form>
+        </div>
+        <div id="address">
+            <p>
+                <br>
+                <br>
+                <br>
+                <h3> <b>info@vegasrestaurant.com</b></h3>
+                <br/>
+                <h4> 0733337777</h4>
+                <br/>
+                <h6> Klarabergsviadukten 70, Box 863, 101 37 STOCKHOLM</h6>
+                <br/>
+                <h6><b>Opening Hours: 10:00 am - 12:00 am All days</b></h6>
+            </p>
+        </div>
+        <div id="map">
+            <a href="https://www.google.com/maps/place/Klarabergsviadukten+70,+111+64+Stockholm/@59.3311655,18.0548547,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d60f5a8e03d:0x7d24af295680a608!8m2!3d59.3311655!4d18.0570434">
+                <img src="./picture/Capture.PNG">
+            </a>
+        </div>
     </div>
-    <div id="map"><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/undefined?origin=...&q=...&destination=...&center=...&zoom=...&key=..." allowfullscreen></iframe></div>
+
 </body>
 
 
