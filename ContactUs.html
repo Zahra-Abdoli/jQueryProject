@@ -6,42 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="./Contact.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
 
     <title>Document</title>
 </head>
 
 <body>
-    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand " href="# "></a>
-        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
-          <span class="navbar-toggler-icon "></span>
+    <nav class="navbar navbar-expand-lg navbar-mainbg">
+        <a class="navbar-brand navbar-logo" href="#">Texas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
         </button>
-
-        <div class="collapse navbar-collapse " id="navbarSupportedContent ">
-            <ul class="navbar-nav mr-auto ">
-                <li class="nav-item ">
-                    <a class=" nav-link " href="# ">Home</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Menu</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="# ">Menu</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="# ">Booking</a>
+                    <a class="nav-link" href="./About.html"><i class="far fa-clone"></i>About Us</a>
                 </li>
                 <li class="nav-item active ">
-                    <a class="nav-link" href="./ContactUs.html">Contact<span class="sr-only ">(current)</span></a>
+                    <a class="nav-link" href="./ContactUs.html"><i class="far fa-calendar-alt"></i>Contact</a>
                 </li>
-
-                <li class="nav-item ">
-                    <a class="nav-link" href="./About.html">About us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2 " type="search " placeholder="Search " aria-label="Search "></input>
-                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Search</button>
-            </form>
         </div>
     </nav>
     <div>
@@ -81,6 +84,7 @@
     </div>
 
 </body>
+<script src="contact.js"></script>
 
 
 </html>

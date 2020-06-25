@@ -16,48 +16,180 @@
 </head>
 
 <body>
-    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand " href="# "></a>
-        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
-          <span class="navbar-toggler-icon "></span>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-mainbg respo">
+        <a class="navbar-brand navbar-logo" href="#">Texas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
         </button>
-
-        <div class="collapse navbar-collapse " id="navbarSupportedContent ">
-            <ul class="navbar-nav mr-auto ">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
                 <li class="nav-item">
-                    <a class="nav-link " href="# ">Home</a>
+                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="# ">Menu</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="# ">Booking</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="ContactUs.html">Contact</a>
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Menu</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link " href="/About.html">About us<span class="sr-only ">(current)</span></a>
+                    <a class="nav-link" href="About.html"><i class="far fa-clone"></i>About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ContactUs.html"><i class="far fa-calendar-alt"></i>Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2 " type="search " placeholder="Search " aria-label="Search "></input>
-                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Search</button>
-            </form>
         </div>
     </nav>
-    <div>
-        <h1 id="about">About Us</h1>
-        <div class="img-comp-container">
-            <div class="img-comp-img">
-                <img src="./picture/image1.jpg" width="1000px" height="700px">
-            </div>
-            <div class="img-comp-img img-comp-overlay">
-                <img src="./picture/2.jpg" width="1000px" height="700px">
-            </div>
-        </div>
-        <p> It all started in Sweden with David Edgerton and Jim McLamore who had a simple vision, to serve good, affordable, high quality food with having fun in the resturant</div>
+    <main>
+        <section>
+            <div>
+                <h1 id="about">About Us</h1>
+                <div class="img-comp-container">
+                    <div class="img-comp-img">
+                        <img src="./picture/image1.jpg" width="1000px" height="700px">
+                    </div>
+                    <div class="img-comp-img img-comp-overlay">
+                        <img src="./picture/2.jpg" width="1000px" height="700px">
+                    </div>
+                </div>
+                <p id="text">l It all started in Sweden with David Edgerton and Jim McLamore who had a simple vision, to serve good, affordable, high quality food with having fun in the resturant</div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
 
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
+                    <p>Here you can use rows and columns to organize your footer content.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <a href="#!">PROJECTS</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#!">ABOUT US</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#!">BLOG</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#!">AWARDS</a>
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Contact details -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                    <!-- Social buttons -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                    <!-- Facebook -->
+                    <a type="button" class="btn-floating btn-fb">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a type="button" class="btn-floating btn-tw">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <!-- Google +-->
+                    <a type="button" class="btn-floating btn-gplus">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <!-- Dribbble -->
+                    <a type="button" class="btn-floating btn-dribbble">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 </body>
 <script>
     /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
