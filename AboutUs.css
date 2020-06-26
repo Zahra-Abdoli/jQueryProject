@@ -10,8 +10,8 @@ body {
     position: relative;
     height: 500px;
     /*should be the same height as the images*/
-    margin: 150px;
-    margin-top: 30px;
+    margin: 30px;
+    margin-top: 50px;
 }
 
 .img-comp-img {
@@ -40,7 +40,7 @@ body {
 
 #about {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5px;
     font-size: 77;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -130,7 +130,7 @@ h6 {
 }
 
 #text {
-    margin: 10px;
+    margin: 100px 10px;
     text-align: center;
     color: rgb(238, 237, 237)
 }
