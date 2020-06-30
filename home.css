@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(17, 17, 17);
 }
 
 @media only screen and (min-width: 960px) {
@@ -34,7 +34,7 @@ body {
 }
 
 .top-nav-collapse {
-    background-color: #3f51b5 !important;
+    background-color: rgba(108, 189, 3, 0.804)!important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -43,8 +43,26 @@ body {
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: #3f51b5 !important;
+        background: rgba(108, 189, 3, 0.804)!important;
     }
+}
+
+nav {
+    height: 50px;
+}
+
+.rgba-gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(86, 122, 39, 0.804) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(169, 233, 86, 0.804) 100%));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(161, 226, 76, 0.804) 100%);
+}
+
+.card {
+    background-color: rgba(47, 78, 5, 0.836);
+}
+
+.md-form label {
+    color: #ffffff;
 }
 
 .slideshow {
@@ -56,7 +74,7 @@ body {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 686px;
     background-color: black;
 }
@@ -155,4 +173,11 @@ main {
     to {
         transform: rotateY(360deg);
     }
+}
+
+#text {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    padding: 0px 60px 30px 60px;
+    text-align: center;
 }

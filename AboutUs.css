@@ -1,5 +1,5 @@
 body {
-    background-color: #1c1c1d;
+    background-color: #111118;
 }
 
 * {
@@ -33,7 +33,7 @@ body {
     /*set the appearance of the slider:*/
     width: 40px;
     height: 40px;
-    background-color: #f37b1a;
+    background-color: rgba(108, 189, 3, 0.804);
     opacity: 0.7;
     border-radius: 50%;
 }
@@ -72,7 +72,7 @@ header,
 }
 
 .top-nav-collapse {
-    background-color: #3f51b5 !important;
+    background-color: rgba(108, 189, 3, 0.804) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -81,18 +81,12 @@ header,
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: #3f51b5 !important;
+        background: rgba(108, 189, 3, 0.804)!important;
     }
 }
 
-.rgba-gradient {
-    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
-    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-}
-
 .card {
-    background-color: rgba(126, 123, 215, 0.2);
+    background-color: rgba(47, 78, 5, 0.836);
 }
 
 .md-form label {

@@ -15,6 +15,7 @@
     <link href="./Material Design Bootstrap Template_files/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="./Material Design Bootstrap Template_files/mdb.min.css" rel="stylesheet">
+    <link href="./font/css/all.css" rel="stylesheet">
 
     <link rel="stylesheet" href="booking.css">
 </head>
@@ -34,28 +35,24 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">Home
-                <span class="sr-only">(current)</span>
-              </a>
+                            <a class="nav-link waves-effect waves-light" href="home.html">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">Booking</a>
+                            <a class="nav-link waves-effect waves-light" href="menu.html">Menu </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link waves-effect waves-light" href="./contact.html">Contact us</a>
+                            <a class="nav-link waves-effect waves-light" href="booking.html">Booking <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link waves-effect waves-light" href="./contact.html">Contact us </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="./AboutUs.html">About Us</a>
+                            <a class="nav-link waves-effect waves-light" href="./AboutUs.html">About Us </a>
                         </li>
                     </ul>
-                    <form class="form-inline">
-                        <div class="md-form my-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        </div>
-                    </form>
+                    <a class="fb-ic" href="./cart.html">
+                        <i class="fas fa-shopping-cart prefix white-text" aria-hidden="true"></i>
+                    </a>
                 </div>
                 .
             </div>
@@ -88,7 +85,7 @@
                         <section>
                             <h2>Please fill your information to preceed with your booking</h2>
                             <div class="container">
-                                <div class="form">
+                                <div class="form card wow fadeInRight animated" data-wow-delay="0.7s" style="visibility: visible; animation-name: fadeInRight; animation-delay: 0.3s;">
                                     <form action="mailto:adelvfilo@gmail.com" method="post" enctype="text/plain">
                                         <label id="msg"></label>
                                         <!-- <label id="done"></label> -->
@@ -105,10 +102,10 @@
                                         <input type="email" name="Email" id="email" size="35" placeholder="Email*" required><br><br>
                                         <input type="text" name="Telephone Number" id="telephoneNumber" size="35" placeholder="Telephone Number*" required><br><br>
                                         <textarea id="comments" name="Comments" rows="5" cols="38" placeholder="Comments"></textarea></textarea><br><br>
-                                        <input id="submit" class="btn btn-primary" type="button" value="Submit" onclick="addBooking()">
+                                        <input id="submit" class="btn btn-dark-green" type="button" value="Submit" onclick="addBooking()">
                                     </form>
                                 </div>
-                                <div class="layout">
+                                <div class="layout card wow fadeInLeft animated" data-wow-delay="0.7s" style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">
                                     <img class="cover" src="./picture/layout.jpg" alt="An error occurred while uploading the picture">
                                 </div>
                             </div>
@@ -145,7 +142,7 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-color: #6351ce;">
+    <div style="background-color: rgba(108, 189, 3, 0.804">
         <div class="container">
 
             <!-- Grid row-->
@@ -201,7 +198,7 @@
 
                 <!-- Content -->
                 <h6 class="text-uppercase font-weight-bold">Vegas</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>try your dream with us</p>
 
             </div>
@@ -212,7 +209,7 @@
 
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Resturan</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
                     <a href="#!">delivery</a>
                 </p>
@@ -234,7 +231,7 @@
 
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Circus</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
                     <a href="#!">Book a show</a>
                 </p>
@@ -256,7 +253,7 @@
 
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
                     <i class="fas fa-home mr-3"></i> Klarabergsviadukten 70,STOCKHOLM</p>
                 <p>

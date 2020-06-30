@@ -24,7 +24,7 @@ header,
 }
 
 .top-nav-collapse {
-    background-color: #3f51b5 !important;
+    background-color: rgba(108, 189, 3, 0.804)!important;
 }
 
 .navbar {
@@ -37,8 +37,14 @@ header,
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: #3f51b5 !important;
+        background: rgba(108, 189, 3, 0.804) !important;
     }
+}
+
+.rgba-gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(86, 122, 39, 0.804) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(169, 233, 86, 0.804) 100%));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(161, 226, 76, 0.804) 100%);
 }
 
 
@@ -91,7 +97,7 @@ h2 {
 
 .form1 {
     width: 400px;
-    background-color: rgb(112, 75, 68);
+    background-color: rgba(47, 83, 0, 0.804);
     box-shadow: 0px5px15pxrgba(0, 0, 0, 0.5);
     padding-bottom: 1px;
     margin-bottom: 60px;

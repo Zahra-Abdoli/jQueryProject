@@ -34,7 +34,7 @@ function addBooking() {
     document.getElementById("email").value = "";
     document.getElementById("telephoneNumber").value = "";
     document.getElementById("comments").value = "";
-    $("#msg").css("color", "green");
+    $("#msg").css("color", "white");
     document.getElementById("msg").innerHTML = "Thanks for booking a table at Vegas Restaurant! We hope you will enjoy it." + "<br> <br>";
 
 }
