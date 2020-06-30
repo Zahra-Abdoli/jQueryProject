@@ -1,0 +1,178 @@
+/* .bg {
+    /* The image used */
+
+
+/* b
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px; */
+
+.btn,
+.btn-success {
+    box-shadow: inset 0px 0px 0px -50px #f2fadc;
+    background: radial-gradient(circle, rgba(53, 94, 0, 0.804359243697479) 0%, rgba(108, 136, 0, 0.6334908963585435) 100%);
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    border: none;
+    text-shadow: 2px #0000006c;
+    margin-top: 10px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn:active,
+.btn:focus,
+.btn:target,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:target {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.menuItems {
+    margin-top: 15px;
+}
+
+#pizzas,
+#burgers {
+    width: 100%;
+    height: 100%;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+a,
+a:hover {
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    width: 100%;
+    margin-top: 2%;
+    height: 50%;
+}
+
+.ingredients {
+    height: 50%;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.addButton {
+    width: 39%;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#addExtra,
+#addExtra.select {
+    width: 58%;
+    height: 41px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+select {
+    text-align-last: center;
+    margin-top: -10px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.image-border {
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 100%;
+    opacity: 0.9;
+    box-shadow: 1px 1px 1px rgba(0, 128, 0, 0.39);
+    margin-top: 25px;
+}
+
+.picture {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.product-name,
+.product-price {
+    height: 10%;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 900;
+    -ms-transform: translate(-50%, -50%);
+}
+
+.order {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.product-price {
+    top: 80%;
+}
+
+.orderButton {
+    height: 80px;
+}
+
+#picture-holder {
+    float: left;
+}
+
+#table-holder {
+    margin: auto;
+    float: left;
+    height: 450px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(7, 13, 0, 0.267) 0%, rgba(0, 0, 0, 0.123) 100%);
+}
+
+.table {
+    color: white;
+    font-size: 18px;
+}
+
+.info-holder {
+    margin-bottom: 20px;
+}
+
+h4,
+h2,
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}

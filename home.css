@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 @media only screen and (min-width: 960px) {
     /* styles for browsers larger than 960px; */
 }
@@ -29,6 +33,20 @@
     /* For landscape layouts only */
 }
 
+.top-nav-collapse {
+    background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
+}
+
 .slideshow {
     margin: 0 auto;
     padding-top: 0px;
@@ -37,28 +55,24 @@
     box-sizing: border-box;
 }
 
-.wrapper {}
-
 main {
     margin-top: 100px;
-    height: 500px;
-    border: solid black 2px;
+    margin-bottom: 686px;
+    background-color: black;
 }
 
 .content {
-    margin: 0 auto;
+    margin: auto;
+    height: 0px;
     width: 300px;
-    height: 100%;
-    perspective: 0px;
+    perspective: 2500px;
     position: relative;
-    padding-top: 0px;
 }
 
 .content-carrousel {
     width: 100%;
-    height: 100%;
     position: absolute;
-    float: center;
+    float: right;
     animation: rotar 25s infinite linear;
     transform-style: preserve-3d;
 }
@@ -71,66 +85,67 @@ main {
 .content-carrousel figure {
     width: 300px;
     height: 300px;
-    border: 1px solid #4d444d;
+    border: 1px solid #3b444b;
     overflow: hidden;
-    position: center;
+    position: absolute;
 }
 
 .content-carrousel figure:nth-child(1) {
-    transform: rotateY(0deg) translateZ(300px);
+    transform: rotateY(0deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(2) {
-    transform: rotateY(40deg) translateZ(300px);
+    transform: rotateY(40deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(3) {
-    transform: rotateY(80deg) translateZ(300px);
+    transform: rotateY(80deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(4) {
-    transform: rotateY(120deg) translateZ(300px);
+    transform: rotateY(120deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(5) {
-    transform: rotateY(160deg) translateZ(300px);
+    transform: rotateY(160deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(6) {
-    transform: rotateY(200deg) translateZ(300px);
+    transform: rotateY(200deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(7) {
-    transform: rotateY(240deg) translateZ(300px);
+    transform: rotateY(240deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(8) {
-    transform: rotateY(280deg) translateZ(300px);
+    transform: rotateY(280deg) translateZ(416px);
 }
 
 .content-carrousel figure:nth-child(9) {
-    transform: rotateY(320deg) translateZ(300px);
+    transform: rotateY(320deg) translateZ(416px);
 }
 
-
-/*add more pictures above according to angle adjustment */
+.content-carrousel figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(416px);
+}
 
 .shadow {
     position: absolute;
-    box-shadow: 0px 0px 20px 0px rgb(190, 159, 2);
-    border-radius: 2px;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 1px;
 }
 
 .content-carrousel img {
     image-rendering: auto;
-    transition: all 1000ms;
+    transition: all 300ms;
     width: 100%;
     height: 100%;
 }
 
 .content-carrousel img:hover {
     transform: scale(1.2);
-    transition: all 500ms;
+    transition: all 300ms;
 }
 
 @keyframes rotar {
@@ -138,6 +153,6 @@ main {
         transform: rotateY(0deg);
     }
     to {
-        transform: rotateY(-360deg);
+        transform: rotateY(360deg);
     }
 }

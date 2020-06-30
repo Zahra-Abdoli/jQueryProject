@@ -62,7 +62,7 @@
         </nav>
         <!-- Navbar -->
         <!-- Full Page Intro -->
-        <div class="view" style="background-image: url(https://www.controvento.ee/wp-content/uploads/2018/11/reserved-3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="view" style="background-image: url(https://www.controvento.ee/wp-content/uploads/2018/11/reserved-3.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 25%;background-position-y: 25%;">
             <!-- Mask & flexbox options-->
             <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
                 <!-- Content -->
@@ -85,6 +85,36 @@
                 <div class="col-md-12 text-center">
                     <section>
                         <!-- add your code here//////////////////////////////////////////// -->
+                        <section>
+                            <h2>Please fill your information to preceed with your booking</h2>
+                            <div class="container">
+                                <div class="form">
+                                    <form action="mailto:adelvfilo@gmail.com" method="post" enctype="text/plain">
+                                        <label id="msg"></label>
+                                        <!-- <label id="done"></label> -->
+                                        <input type="date" name="Date" id="date" size="35" required><br><br>
+                                        <input type="number" name="Table" id="table" size="35" placeholder="Table Number*" min="1" max="5" required>
+                                        <input type="button" id="check" value="Check Availability" onclick="booking()"><br><br>
+                                        <!-- <input type="radio" name="Table" id="table1" onchange="booking()"> Table 1
+                                        <input type="radio" name="Table" id="table2" onchange="booking()"> Table 2
+                                        <input type="radio" name="Table" id="table3" onchange="booking()"> Table 3 <br><br>
+                                        <input type="radio" name="Table" id="table4" onchange="booking()"> Table 4
+                                        <input type="radio" name="Table" id="table5" onchange="booking()"> Table 5 <br><br> -->
+                                        <input type="text" name="First Name" id="firstName" size="35" placeholder="First Name*" required><br><br>
+                                        <input type="text" name="Last Name" id="lastName" size="35" placeholder="Last Name*" required><br><br>
+                                        <input type="email" name="Email" id="email" size="35" placeholder="Email*" required><br><br>
+                                        <input type="text" name="Telephone Number" id="telephoneNumber" size="35" placeholder="Telephone Number*" required><br><br>
+                                        <textarea id="comments" name="Comments" rows="5" cols="38" placeholder="Comments"></textarea></textarea><br><br>
+                                        <input id="submit" class="btn btn-primary" type="button" value="Submit" onclick="addBooking()">
+                                    </form>
+                                </div>
+                                <div class="layout">
+                                    <img class="cover" src="./picture/layout.jpg" alt="An error occurred while uploading the picture">
+                                </div>
+                            </div>
+
+                        </section>
+                        <!-- /////////////////// -->
 
                     </section>
 
@@ -128,7 +158,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <div id="sm" class="col-md-6 col-lg-7 text-center text-md-right">
 
                     <!-- Facebook -->
                     <a class="fb-ic">

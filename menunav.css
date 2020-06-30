@@ -1,7 +1,6 @@
 html,
 body,
-header,
-.view {
+header {
     height: 100%;
 }
 
@@ -20,23 +19,8 @@ header,
     }
 }
 
-@media (min-width: 800px) and (max-width: 850px) {
-    html,
-    body,
-    header,
-    .view {
-        height: 650px;
-    }
-    .cover {
-        width: 400px;
-    }
-    .form {
-        margin: 20px 0px;
-    }
-}
-
-.top-nav-collapse {
-    background-color: #3f51b5 !important;
+.navbar-nav nav-item {
+    float: right;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -47,10 +31,6 @@ header,
     .navbar:not(.top-nav-collapse) {
         background: #3f51b5 !important;
     }
-}
-
-nav {
-    height: 50px;
 }
 
 .rgba-gradient {
@@ -68,12 +48,7 @@ nav {
 }
 
 h6 {
-    padding-left: 20px;
     line-height: 1.7;
-}
-
-#sm {
-    padding-right: 50px;
 }
 
 
@@ -100,40 +75,4 @@ h6 {
 .chartjs-render-monitor {
     -webkit-animation: chartjs-render-animation 0.001s;
     animation: chartjs-render-animation 0.001s;
-}
-
-.form {
-    width: 400px;
-    float: right;
-    background-color: rgba(108, 122, 137, 0.7);
-    box-shadow: 0px5px15pxrgba(0, 0, 0, 0.5);
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: inline;
-    margin-right: 50px;
-}
-
-.container {
-    display: inline;
-}
-
-.layout {
-    display: inline;
-    float: left;
-    margin-top: 100px;
-    margin-left: 50px;
-}
-
-h2 {
-    margin-top: 15px;
-    text-align: center;
-    color: tomato;
-}
-
-form {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
