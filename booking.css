@@ -54,9 +54,9 @@ nav {
 }
 
 .rgba-gradient {
-    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(86, 122, 39, 0.804) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(169, 233, 86, 0.804) 100%));
-    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(161, 226, 76, 0.804) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(91, 119, 55, 0.804) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(182, 230, 120, 0.804) 100%));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(74, 88, 54, 0.804) 100%);
 }
 
 .card {
