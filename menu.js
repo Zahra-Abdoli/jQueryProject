@@ -270,10 +270,22 @@ $(".order").on("click", function() {
     let mealToOrder = {
         name: productName,
         price: productPrice
-    }
+    };
 
-    alert(mealToOrder.name + " " + mealToOrder.price);
+
     shoppingCart.push(mealToOrder);
+
+
+
+});
+
+function cart() {
+
+
+
+};
+
+$("#submitButton").on("click", function showMe() {
 
 });
 
@@ -290,8 +302,9 @@ $(".orderButton").on("click", function() {
         mealToOrder.ingredients.push(id);
     });
 
-    alert(mealToOrder.ingredients);
+    //alert(mealToOrder.ingredients);
     shoppingCart.push(mealToOrder);
+    console.log(shoppingCart);
 });
 
 function priceUp() {

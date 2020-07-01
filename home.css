@@ -1,3 +1,17 @@
+.top-nav-collapse {
+    background-color: rgba(159, 221, 78, 0.804)!important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: rgba(108, 189, 3, 0.804)!important;
+    }
+}
+
 body {
     background-color: rgb(17, 17, 17);
 }
@@ -33,24 +47,6 @@ body {
     /* For landscape layouts only */
 }
 
-.top-nav-collapse {
-    background-color: rgba(108, 189, 3, 0.804)!important;
-}
-
-.navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-}
-
-@media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-        background: rgba(108, 189, 3, 0.804)!important;
-    }
-}
-
-nav {
-    height: 50px;
-}
-
 .rgba-gradient {
     background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(86, 122, 39, 0.804) 100%);
     background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(169, 233, 86, 0.804) 100%));
@@ -75,8 +71,8 @@ nav {
 
 main {
     margin-top: 70px;
-    margin-bottom: 686px;
-    background-color: black;
+    margin-bottom: 450px;
+    background-color: rgb(17, 17, 17);
 }
 
 .content {
@@ -180,4 +176,8 @@ main {
     color: white;
     padding: 0px 60px 30px 60px;
     text-align: center;
+}
+
+h1 {
+    color: chartreuse;
 }

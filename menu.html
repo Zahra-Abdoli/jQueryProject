@@ -1,77 +1,70 @@
 <!DOCTYPE html>
-<!-- saved from url=(0089)https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html -->
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Required meta tags always come first -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap Template</title>
-    <!-- Font Awesome -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu</title>
     <link rel="stylesheet" href="./Material Design Bootstrap Template_files/all.css">
     <!-- Bootstrap core CSS -->
     <link href="./Material Design Bootstrap Template_files/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="./Material Design Bootstrap Template_files/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./menunav.css">
-    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="./menu.css" />
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href="./font/css/all.css" rel="stylesheet">
+
 </head>
 
 <body aria-busy="true" data-gr-c-s-loaded="true">
-    <!-- Main navigation -->
+
+
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
-                <a class="navbar-brand" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">
-                    <strong></strong>
+                <a class="navbar-brand" href="home.html">
+                    <strong>
+                        Vegas
+                    </strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">vegas</span>
-        </button>
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">Booking</a>
+                            <a class="nav-link waves-effect waves-light" href="./home.html">Home </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link waves-effect waves-light" href="./contact.html">Contact us</a>
+                            <a class="nav-link waves-effect waves-light" href="./menu.html">Menu </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="./AboutUs.html">About Us</a>
+                            <a class="nav-link waves-effect waves-light" href="./booking.html">Booking </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="./contact.html">Contact us </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link waves-effect waves-light" href="./AboutUs.html">About us <span class="sr-only">(current)</span></a>
+                        </li>
+
                     </ul>
-                    <form class="form-inline">
-                        <div class="md-form my-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        </div>
+                    <a class="fb-ic" href="./cart.html">
+                        <i class="fas fa-shopping-cart prefix white-text" aria-hidden="true"></i>
+                    </a>
+
                     </form>
+
                 </div>
-                .
-            </div>
+
         </nav>
-        <!-- Navbar -->
-        <!-- Full Page Intro -->
-        <div class="view" style="background-image: url(./picture/cover.png); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-            <!-- Mask & flexbox options-->
-            <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
-
-
-            </div>
-            <!-- Mask & flexbox options-->
-        </div>
-        <!-- Full Page Intro -->
     </header>
+
+
     <main>
         <div class="bg">
 
@@ -295,10 +288,16 @@
 
                     <div id="table-holder" class="overflow-auto col-12 col-sm-12 col-md-6 col-lg-6">
                         <h4>Ingredients</h4>
-                        <select id="addExtra"></select>
-                        <span class="input-group-btn">
-                          <button class="addButton btn btn-success" type="button" onclick="addNewIngredient()">Add</button>
-                          </span>
+
+                        <div class="addHolder">
+                            <div>
+                                <select class="browser-default custom-select" id="addExtra"></select>
+                            </div>
+                            <div>
+                                <button id="myButton" class="addButton  btn-success" type="button" onclick="addNewIngredient()">Add</button>
+                            </div>
+
+                        </div>
                         <table class="table" id="ingredients"></table>
                     </div>
                     <button class="btn btn-success orderButton">Order</button>
@@ -320,9 +319,13 @@
 
 
     </main>
+
+
+
+
     <footer class="page-footer font-small unique-color-dark">
 
-        <div style="background-color: #6351ce;">
+        <div style="background-color:  rgba(108, 189, 3, 0.804)">
             <div class="container">
 
                 <!-- Grid row-->
@@ -374,12 +377,24 @@
             <div class="row mt-3">
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">Vegas</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>try your dream with us</p>
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>try your dream with us</br>
+
+                        <p>
+                            <a href="#!">1</a>
+                        </p>
+                        <p>
+                            <a href="#!">2</a>
+                        </p>
+                        <p>
+                            <a href="#!">3</a>
+                        </p>
+
+                    </p>
 
                 </div>
                 <!-- Grid column -->
@@ -389,7 +404,7 @@
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Resturan</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <a href="#!">delivery</a>
                     </p>
@@ -411,7 +426,7 @@
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Circus</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <a href="#!">Book a show</a>
                     </p>
@@ -419,7 +434,7 @@
                         <a href="#!">1</a>
                     </p>
                     <p>
-                        <a href="#!">car</a>
+                        <a href="#!">career</a>
                     </p>
                     <p>
                         <a href="#!">Help</a>
@@ -433,7 +448,7 @@
 
                     <!-- Links -->
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <hr class="green accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <i class="fas fa-home mr-3"></i> Klarabergsviadukten 70,STOCKHOLM</p>
                     <p>
@@ -459,28 +474,13 @@
         <!-- Copyright -->
 
     </footer>
-    <!-- Footer -->
-
-
-    <script type="text/javascript" src="./Material Design Bootstrap Template_files/jquery-3.3.1.min.js.download"></script>
-    <!-- Tooltips -->
-    <script type="text/javascript" src="./Material Design Bootstrap Template_files/popper.min.js.download"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="./Material Design Bootstrap Template_files/bootstrap.min.js.download"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="./Material Design Bootstrap Template_files/mdb.min.js.download"></script>
 
     <script src="./menu.js"></script>
+
     <script>
         $(attachEvents())
     </script>
 
-    <div class="hiddendiv common"></div>
-
 </body>
 
 </html>
-
-
-
-<!-- Footer -->

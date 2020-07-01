@@ -42,13 +42,15 @@ function addBooking() {
 
 var allBookings = [myList, myList2];
 
+
 function available() {
+
     document.getElementById("msg").innerHTML = "";
     // document.getElementById("done").innerHTML= "";
     for (var x in allBookings) {
         if ((allBookings[x].date == document.getElementById("date").value) &&
             (allBookings[x].table == document.getElementById("table").value)) {
-            $("#msg").css("color", "red");
+            $("#msg").css("color", "white");
             document.getElementById("msg").innerHTML = "This table at this date is taken. Please try to book another one." + "<br> <br>";
 
             document.getElementById("date").value = "";

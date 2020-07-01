@@ -24,7 +24,7 @@
    }
    
    .top-nav-collapse {
-       background-color: rgba(108, 189, 3, 0.804)!important;
+       background-color: rgb(108, 189, 3)!important;
    }
    
    .navbar:not(.top-nav-collapse) {
@@ -33,7 +33,7 @@
    
    @media (max-width: 991px) {
        .navbar:not(.top-nav-collapse) {
-           background: rgba(108, 189, 3, 0.804)!important;
+           background: rgb(108, 189, 3)!important;
        }
    }
    

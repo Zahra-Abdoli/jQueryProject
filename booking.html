@@ -21,41 +21,47 @@
 </head>
 
 <body aria-busy="true" data-gr-c-s-loaded="true">
-    <!-- Main navigation -->
+
+
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
-                <a class="navbar-brand" href="https://mdbootstrap.com/previews/docs/latest/html/intros/intro-register-classic-form.html#">
-                    <strong></strong>
+                <a class="navbar-brand" href="home.html">
+                    <strong>
+                        Vegas
+                    </strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">vegas</span>
-        </button>
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="home.html">Home </a>
+                            <a class="nav-link waves-effect waves-light" href="./home.html">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="menu.html">Menu </a>
+                            <a class="nav-link waves-effect waves-light" href="./menu.html">Menu </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link waves-effect waves-light" href="booking.html">Booking <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link waves-effect waves-light" href="./contact.html">Contact us </a>
+                            <a class="nav-link waves-effect waves-light" href="./booking.html">Booking </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="./AboutUs.html">About Us </a>
+                            <a class="nav-link waves-effect waves-light" href="./contact.html">Contact us </a>
                         </li>
+                        <li class="nav-item ">
+                            <a class="nav-link waves-effect waves-light" href="./AboutUs.html">About us <span class="sr-only">(current)</span></a>
+                        </li>
+
                     </ul>
                     <a class="fb-ic" href="./cart.html">
                         <i class="fas fa-shopping-cart prefix white-text" aria-hidden="true"></i>
                     </a>
+
+                    </form>
+
                 </div>
-                .
-            </div>
+
         </nav>
         <!-- Navbar -->
         <!-- Full Page Intro -->
@@ -84,14 +90,14 @@
                         <!-- add your code here//////////////////////////////////////////// -->
                         <section>
                             <h2>Please fill your information to preceed with your booking</h2>
-                            <div class="container">
+                            <div id="inline" class="container">
                                 <div class="form card wow fadeInRight animated" data-wow-delay="0.7s" style="visibility: visible; animation-name: fadeInRight; animation-delay: 0.3s;">
                                     <form action="mailto:adelvfilo@gmail.com" method="post" enctype="text/plain">
                                         <label id="msg"></label>
                                         <!-- <label id="done"></label> -->
                                         <input type="date" name="Date" id="date" size="35" required><br><br>
                                         <input type="number" name="Table" id="table" size="35" placeholder="Table Number*" min="1" max="5" required>
-                                        <input type="button" id="check" value="Check Availability" onclick="booking()"><br><br>
+                                        <input class="btn" type="button" id="check" value="Check Availability" onclick="booking()"><br><br>
                                         <!-- <input type="radio" name="Table" id="table1" onchange="booking()"> Table 1
                                         <input type="radio" name="Table" id="table2" onchange="booking()"> Table 2
                                         <input type="radio" name="Table" id="table3" onchange="booking()"> Table 3 <br><br>
@@ -133,6 +139,7 @@
     <script type="text/javascript" src="./Material Design Bootstrap Template_files/mdb.min.js.download"></script>
     <div class="hiddendiv common"></div>
     <script src="./booking.js"></script>
+
 </body>
 
 </html>
@@ -142,8 +149,8 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-color: rgba(108, 189, 3, 0.804">
-        <div class="container">
+    <div style="background-color: rgba(108, 189, 3, 0.804); height:74px">
+        <div class="container ">
 
             <!-- Grid row-->
             <div class="row py-4 d-flex align-items-center">
